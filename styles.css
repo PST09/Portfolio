@@ -29,7 +29,9 @@
 .navbar-light .navbar-nav .nav-link:hover {
     color: #f00;
 }
-
+.navbar-light .navbar-toggler:focus{
+    box-shadow:none;
+}
 .sticky-top {
     background-color: #cc99ff;
 }
@@ -57,7 +59,7 @@
 }
 
 .home h1 {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 700;
     margin-bottom: 0;
 }
@@ -119,10 +121,10 @@ section h2::after {
     background: #fff;
     transform: translateX(-50%);
 }
-
+/* 
 .about {
     height: 28em;
-}
+} */
 
 .about1 h2::after {
     content: "Who I am";

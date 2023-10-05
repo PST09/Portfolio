@@ -48,3 +48,6 @@ $(document).ready(function(){
         loop: true
     });
 });
+function sendEmail(){
+    alert("Message send successfully");
+}
